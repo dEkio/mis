@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77ECB76319372BF800FB032F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77ECB76219372BF800FB032F /* Foundation.framework */; };
+		77ECB76519372BF800FB032F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77ECB76419372BF800FB032F /* CoreGraphics.framework */; };
+		77ECB76719372BF800FB032F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77ECB76619372BF800FB032F /* UIKit.framework */; };
+		77ECB76D19372BF800FB032F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77ECB76B19372BF800FB032F /* InfoPlist.strings */; };
+		77ECB76F19372BF800FB032F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77ECB76E19372BF800FB032F /* main.m */; };
+		77ECB77319372BF800FB032F /* dacsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77ECB77219372BF800FB032F /* dacsAppDelegate.m */; };
+		77ECB77619372BF800FB032F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77ECB77419372BF800FB032F /* Main_iPhone.storyboard */; };
+		77ECB77919372BF800FB032F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77ECB77719372BF800FB032F /* Main_iPad.storyboard */; };
+		77ECB77C19372BF800FB032F /* dacsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77ECB77B19372BF800FB032F /* dacsViewController.m */; };
+		77ECB77E19372BF800FB032F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77ECB77D19372BF800FB032F /* Images.xcassets */; };
+		77ECB78519372BF800FB032F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77ECB78419372BF800FB032F /* XCTest.framework */; };
+		77ECB78619372BF800FB032F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77ECB76219372BF800FB032F /* Foundation.framework */; };
+		77ECB78719372BF800FB032F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77ECB76619372BF800FB032F /* UIKit.framework */; };
+		77ECB78F19372BF800FB032F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77ECB78D19372BF800FB032F /* InfoPlist.strings */; };
+		77ECB79119372BF800FB032F /* shop_o_matTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77ECB79019372BF800FB032F /* shop_o_matTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77ECB78819372BF800FB032F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77ECB75719372BF800FB032F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77ECB75E19372BF800FB032F;
+			remoteInfo = "shop-o-mat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77ECB75F19372BF800FB032F /* shop-o-mat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shop-o-mat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77ECB76219372BF800FB032F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		77ECB76419372BF800FB032F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		77ECB76619372BF800FB032F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		77ECB76A19372BF800FB032F /* shop-o-mat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "shop-o-mat-Info.plist"; sourceTree = "<group>"; };
+		77ECB76C19372BF800FB032F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77ECB76E19372BF800FB032F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77ECB77019372BF800FB032F /* shop-o-mat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shop-o-mat-Prefix.pch"; sourceTree = "<group>"; };
+		77ECB77119372BF800FB032F /* dacsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dacsAppDelegate.h; sourceTree = "<group>"; };
+		77ECB77219372BF800FB032F /* dacsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dacsAppDelegate.m; sourceTree = "<group>"; };
+		77ECB77519372BF800FB032F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		77ECB77819372BF800FB032F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		77ECB77A19372BF800FB032F /* dacsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dacsViewController.h; sourceTree = "<group>"; };
+		77ECB77B19372BF800FB032F /* dacsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dacsViewController.m; sourceTree = "<group>"; };
+		77ECB77D19372BF800FB032F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		77ECB78319372BF800FB032F /* shop-o-matTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shop-o-matTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77ECB78419372BF800FB032F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		77ECB78C19372BF800FB032F /* shop-o-matTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "shop-o-matTests-Info.plist"; sourceTree = "<group>"; };
+		77ECB78E19372BF800FB032F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77ECB79019372BF800FB032F /* shop_o_matTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shop_o_matTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77ECB75C19372BF800FB032F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77ECB76519372BF800FB032F /* CoreGraphics.framework in Frameworks */,
+				77ECB76719372BF800FB032F /* UIKit.framework in Frameworks */,
+				77ECB76319372BF800FB032F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77ECB78019372BF800FB032F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77ECB78519372BF800FB032F /* XCTest.framework in Frameworks */,
+				77ECB78719372BF800FB032F /* UIKit.framework in Frameworks */,
+				77ECB78619372BF800FB032F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77ECB75619372BF800FB032F = {
+			isa = PBXGroup;
+			children = (
+				77ECB76819372BF800FB032F /* shop-o-mat */,
+				77ECB78A19372BF800FB032F /* shop-o-matTests */,
+				77ECB76119372BF800FB032F /* Frameworks */,
+				77ECB76019372BF800FB032F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77ECB76019372BF800FB032F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77ECB75F19372BF800FB032F /* shop-o-mat.app */,
+				77ECB78319372BF800FB032F /* shop-o-matTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77ECB76119372BF800FB032F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77ECB76219372BF800FB032F /* Foundation.framework */,
+				77ECB76419372BF800FB032F /* CoreGraphics.framework */,
+				77ECB76619372BF800FB032F /* UIKit.framework */,
+				77ECB78419372BF800FB032F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77ECB76819372BF800FB032F /* shop-o-mat */ = {
+			isa = PBXGroup;
+			children = (
+				77ECB77119372BF800FB032F /* dacsAppDelegate.h */,
+				77ECB77219372BF800FB032F /* dacsAppDelegate.m */,
+				77ECB77419372BF800FB032F /* Main_iPhone.storyboard */,
+				77ECB77719372BF800FB032F /* Main_iPad.storyboard */,
+				77ECB77A19372BF800FB032F /* dacsViewController.h */,
+				77ECB77B19372BF800FB032F /* dacsViewController.m */,
+				77ECB77D19372BF800FB032F /* Images.xcassets */,
+				77ECB76919372BF800FB032F /* Supporting Files */,
+			);
+			path = "shop-o-mat";
+			sourceTree = "<group>";
+		};
+		77ECB76919372BF800FB032F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77ECB76A19372BF800FB032F /* shop-o-mat-Info.plist */,
+				77ECB76B19372BF800FB032F /* InfoPlist.strings */,
+				77ECB76E19372BF800FB032F /* main.m */,
+				77ECB77019372BF800FB032F /* shop-o-mat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77ECB78A19372BF800FB032F /* shop-o-matTests */ = {
+			isa = PBXGroup;
+			children = (
+				77ECB79019372BF800FB032F /* shop_o_matTests.m */,
+				77ECB78B19372BF800FB032F /* Supporting Files */,
+			);
+			path = "shop-o-matTests";
+			sourceTree = "<group>";
+		};
+		77ECB78B19372BF800FB032F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77ECB78C19372BF800FB032F /* shop-o-matTests-Info.plist */,
+				77ECB78D19372BF800FB032F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77ECB75E19372BF800FB032F /* shop-o-mat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77ECB79419372BF800FB032F /* Build configuration list for PBXNativeTarget "shop-o-mat" */;
+			buildPhases = (
+				77ECB75B19372BF800FB032F /* Sources */,
+				77ECB75C19372BF800FB032F /* Frameworks */,
+				77ECB75D19372BF800FB032F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "shop-o-mat";
+			productName = "shop-o-mat";
+			productReference = 77ECB75F19372BF800FB032F /* shop-o-mat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77ECB78219372BF800FB032F /* shop-o-matTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77ECB79719372BF800FB032F /* Build configuration list for PBXNativeTarget "shop-o-matTests" */;
+			buildPhases = (
+				77ECB77F19372BF800FB032F /* Sources */,
+				77ECB78019372BF800FB032F /* Frameworks */,
+				77ECB78119372BF800FB032F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77ECB78919372BF800FB032F /* PBXTargetDependency */,
+			);
+			name = "shop-o-matTests";
+			productName = "shop-o-matTests";
+			productReference = 77ECB78319372BF800FB032F /* shop-o-matTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77ECB75719372BF800FB032F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = dacs;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = FINKI;
+				TargetAttributes = {
+					77ECB78219372BF800FB032F = {
+						TestTargetID = 77ECB75E19372BF800FB032F;
+					};
+				};
+			};
+			buildConfigurationList = 77ECB75A19372BF800FB032F /* Build configuration list for PBXProject "shop-o-mat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77ECB75619372BF800FB032F;
+			productRefGroup = 77ECB76019372BF800FB032F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77ECB75E19372BF800FB032F /* shop-o-mat */,
+				77ECB78219372BF800FB032F /* shop-o-matTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77ECB75D19372BF800FB032F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77ECB77919372BF800FB032F /* Main_iPad.storyboard in Resources */,
+				77ECB77E19372BF800FB032F /* Images.xcassets in Resources */,
+				77ECB77619372BF800FB032F /* Main_iPhone.storyboard in Resources */,
+				77ECB76D19372BF800FB032F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77ECB78119372BF800FB032F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77ECB78F19372BF800FB032F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77ECB75B19372BF800FB032F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77ECB76F19372BF800FB032F /* main.m in Sources */,
+				77ECB77C19372BF800FB032F /* dacsViewController.m in Sources */,
+				77ECB77319372BF800FB032F /* dacsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77ECB77F19372BF800FB032F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77ECB79119372BF800FB032F /* shop_o_matTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77ECB78919372BF800FB032F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77ECB75E19372BF800FB032F /* shop-o-mat */;
+			targetProxy = 77ECB78819372BF800FB032F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77ECB76B19372BF800FB032F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77ECB76C19372BF800FB032F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		77ECB77419372BF800FB032F /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77ECB77519372BF800FB032F /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		77ECB77719372BF800FB032F /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77ECB77819372BF800FB032F /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		77ECB78D19372BF800FB032F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77ECB78E19372BF800FB032F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77ECB79219372BF800FB032F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77ECB79319372BF800FB032F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77ECB79519372BF800FB032F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shop-o-mat/shop-o-mat-Prefix.pch";
+				INFOPLIST_FILE = "shop-o-mat/shop-o-mat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		77ECB79619372BF800FB032F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shop-o-mat/shop-o-mat-Prefix.pch";
+				INFOPLIST_FILE = "shop-o-mat/shop-o-mat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		77ECB79819372BF800FB032F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/shop-o-mat.app/shop-o-mat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shop-o-mat/shop-o-mat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "shop-o-matTests/shop-o-matTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		77ECB79919372BF800FB032F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/shop-o-mat.app/shop-o-mat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shop-o-mat/shop-o-mat-Prefix.pch";
+				INFOPLIST_FILE = "shop-o-matTests/shop-o-matTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77ECB75A19372BF800FB032F /* Build configuration list for PBXProject "shop-o-mat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77ECB79219372BF800FB032F /* Debug */,
+				77ECB79319372BF800FB032F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77ECB79419372BF800FB032F /* Build configuration list for PBXNativeTarget "shop-o-mat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77ECB79519372BF800FB032F /* Debug */,
+				77ECB79619372BF800FB032F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77ECB79719372BF800FB032F /* Build configuration list for PBXNativeTarget "shop-o-matTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77ECB79819372BF800FB032F /* Debug */,
+				77ECB79919372BF800FB032F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77ECB75719372BF800FB032F /* Project object */;
+}
